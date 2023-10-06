@@ -28,7 +28,7 @@ public class AboutMe {
         scanner.close();   
         }
         catch(InputMismatchException e){
-        System.out.println("Os dados digitados são inválidos");
+        System.err.println("Os dados digitados são inválidos");
         }
     }
 
